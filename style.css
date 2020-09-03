@@ -1,0 +1,32 @@
+.wrapper h1{
+    text-align: center;
+    font-size: 60px;
+    font-family: cursive;
+    font-weight: 800;
+    color: crimson;
+}
+.img-area{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.single-img{
+    padding: 0 20px 20px;
+}
+img:hover{
+    opacity: .5;
+    transition: .8s;
+}
+body{
+    background-color: rgb(6, 6, 70);
+}
+footer{
+    color: crimson;
+    font-weight: 900;
+    font-size: large;
+    font-family: cursive;
+    text-align: center;
+}
+
